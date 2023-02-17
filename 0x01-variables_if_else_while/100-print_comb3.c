@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Description: writing 0s and 1s separated by ,
- * Return - 0
+ * Return: 0
  */
 int main(void)
 {
