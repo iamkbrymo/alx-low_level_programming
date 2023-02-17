@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * main - prints single digits from 0 to 9
  * Return: 0 (When successful)
