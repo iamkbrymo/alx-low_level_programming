@@ -10,7 +10,8 @@ char *cap_string(char *s)
 {
 	int count, count1;
 
-	char spec[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+	char spec[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?'
+		, '"', '(', ')', '{', '}'};
 
 	count = 0;
 	while (s[count] != '\0')
