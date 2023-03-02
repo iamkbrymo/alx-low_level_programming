@@ -2,6 +2,7 @@
 
 /**
  * string_toupper - lowercase letters of a string to uppercase
+ * @s: string to edit
  * Return: char in uppercase
  */
 
