@@ -15,6 +15,7 @@ int check_is_prime(int n, int i)
 			return (0);
 	}
 	return (check_is_prime(n, (i + 1)));
+	return;
 }
 
 /**
