@@ -20,6 +20,9 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
+		if (str == '\0')
+			return (0);
+
 		str = (char *) malloc(sizeof(char) * size);
 
 		i = 0;
