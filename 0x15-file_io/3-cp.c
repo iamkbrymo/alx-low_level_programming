@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 char *create_buffer(char *filename);
 void close_status(int fd);
@@ -87,7 +89,6 @@ int main(int argc, char *argv[])
 		r = read(f_from, buffer, 1024);
 		f_to = open(argv[2], O_WRONLY | O_APPEND);
 
-		r--;
 	}
 
 	free(buffer);
