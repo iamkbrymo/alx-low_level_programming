@@ -30,7 +30,7 @@ unsigned int binary_to_uint(const char *b)
 			if (pow == 0)
 				result = 1;
 
-			for (pow; pow > 0; pow--)
+			for (pow = pow; pow > 0; pow--)
 			{
 				result *= 2;
 			}
