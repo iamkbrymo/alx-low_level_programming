@@ -13,7 +13,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 
 	while (exor > 0)
 	{
-		bits += (exor & 1);
+		num += (exor & 1);
 		exor >>= 1;
 	}
 
