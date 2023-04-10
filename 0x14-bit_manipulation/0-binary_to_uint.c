@@ -20,7 +20,7 @@ unsigned int binary_to_uint(const char *b)
 	while (b[str_len])
 		str_len++;
 
-	while (str_len >= 0)
+	while (str_len > 0)
 	{
 		if (b[str_len] == '0')
 			result = 0;
@@ -30,7 +30,7 @@ unsigned int binary_to_uint(const char *b)
 			if (pow == 0)
 				result = 1;
 
-			for (pow = pow; pow > 0; pow--)
+			for (pow; pow > 0; pow--)
 			{
 				result *= 2;
 			}
