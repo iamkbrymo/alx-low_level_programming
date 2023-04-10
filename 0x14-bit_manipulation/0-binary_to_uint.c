@@ -9,6 +9,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int result, num, pow, str_len = 0;
+
 	num = 0;
 	result = 1;
 	pow = 0;
@@ -28,8 +29,8 @@ unsigned int binary_to_uint(const char *b)
 		{
 			if (pow == 0)
 				result = 1;
-			
-			for (pow; pow > 0; pow--)
+
+			for (pow = pow; pow > 0; pow--)
 			{
 				result *= 2;
 			}
